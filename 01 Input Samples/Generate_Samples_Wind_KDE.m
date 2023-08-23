@@ -1,3 +1,4 @@
+% Generate Wind samples
 % Kernel density estimation method is used to determine the distribution of historical wind generation,
 % from which representative samples of wind generation are randomly generated.
 
