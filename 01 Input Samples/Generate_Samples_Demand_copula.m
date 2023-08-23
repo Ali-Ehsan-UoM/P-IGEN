@@ -1,3 +1,4 @@
+% Generate Demand samples
 % Correlation between electricity and gas demand is modelled using the copula method
 
 % Fit t copula to data
