@@ -1,3 +1,5 @@
+#Case file for GB-networks interconnection
+
 function connect = connect_pg_case9
 
 % Input necessary to connect power and natural gas systems
