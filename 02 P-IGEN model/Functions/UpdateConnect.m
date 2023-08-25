@@ -1,4 +1,4 @@
-%% update interconnection case
+%% Update interconnection case
 
 function [connect] = UpdateConnect(mpc, connect)
 define_constants                % power system constants
