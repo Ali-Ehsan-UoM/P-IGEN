@@ -12,7 +12,7 @@ function pd1 = CreateHistoricalFit(HistData)
 %
 %   See also FITDIST.
 
-% Output fitted probablility distribution: PD1
+% Output Fitted probablility distribution: PD1
 
 % Force all inputs to be column vectors
 HistData = HistData(:);
