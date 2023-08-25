@@ -1,3 +1,5 @@
+%% modify mpc2gas_prep function
+
 function mpgc = mpc2gas_prep(mpgc0,mpopt)
 % mpc2gas_prep Modifies the original Matpower case to make it fulfil the 
 %   requirements of the MPNG formulation.
@@ -33,9 +35,9 @@ function mpgc = mpc2gas_prep(mpgc0,mpopt)
 
 %   MPNG Matpower - Natural Gas
 %   Copyright (c) 2019 - v0.99alpha
-%   Sergio García-Marín - Universidad Nacional de Colombia - Sede Manizales
-%   Wilson González-Vanegas - Universidad Tecnológica de Pereira
-%   Carlos E. Murillo-Sánchez - Universidad Nacional de Colombia - Sede Manizales
+%   Sergio GarcÃ­a-MarÃ­n - Universidad Nacional de Colombia - Sede Manizales
+%   Wilson GonzÃ¡lez-Vanegas - Universidad TecnolÃ³gica de Pereira
+%   Carlos E. Murillo-SÃ¡nchez - Universidad Nacional de Colombia - Sede Manizales
 % 
 %   This file is part of MPNG.
 %   Covered by the 3-clause BSD License (see LICENSE file for details).
@@ -60,7 +62,7 @@ if any(iscomp_p) && iscomp_p_matrix
     if_comp = (idcomp_p(:) ~= mpgc.connect.interc.comp(:,COMP_ID));
     comp_p = mpgc.connect.interc.comp(:,COMP_ID);
     if any(if_comp) || ~isequal(idcomp_p,comp_p)
-        error('mpc2gas_prep: id´s for compressors connected to the power network mismatch.');
+        error('mpc2gas_prep: idÂ´s for compressors connected to the power network mismatch.');
     end
     mpgc = compressor2gen(mpgc);
     if verbose
