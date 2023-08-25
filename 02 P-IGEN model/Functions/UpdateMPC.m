@@ -1,4 +1,4 @@
-%% Update  generator capaicities and fuel price data
+%% Update electricity network data: generator capaicities and fuel price data
 
 function [mpc]= UpdateMPC(mpc)
 
