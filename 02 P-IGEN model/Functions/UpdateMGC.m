@@ -1,4 +1,4 @@
-%% Update gas demand, pipeline capacities and well capacities
+%% Update gas network data: demand, pipeline capacities and well capacities
 
 function [mgc] = UpdateMGC(mgc)
 
