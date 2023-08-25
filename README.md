@@ -12,9 +12,10 @@ MATLAB version 7.3 (R2016b) or later
 [IPOPT](https://github.com/coin-or/Ipopt)
 
 ### Citing GB-IGEN model
-We do request that publications derived from the use of P-IGEN model explicitly acknowledge that fact by including the following cite:
+We do request that publications derived from the use of P-IGEN model explicitly acknowledge that fact by including the following cite*:
 
 A. Ehsan and R.Preece, "P-IGEN: Probabilistic Integrated Gas and Electricity Network Model," 2023. [Online]. Available: https://github.com/Ali-Ehsan-UoM/P-IGEN
 
 *See that a journal publication to appear soon should be cited instead.
+
 
