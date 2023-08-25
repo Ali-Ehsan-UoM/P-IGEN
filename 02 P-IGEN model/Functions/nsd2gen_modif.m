@@ -1,3 +1,5 @@
+# Modify nsd2gen function
+
 function mpc = nsd2gen(mpc0,nsdcost)
 % nsd2gen Converts all loads to dispatchable in order to model non-supplied
 %   demands through negegative generators.
@@ -21,9 +23,9 @@ function mpc = nsd2gen(mpc0,nsdcost)
 
 %   MPNG Matpower - Natural Gas
 %   Copyright (c) 2019 - v0.99alpha
-%   Sergio GarcÌa-MarÌn - Universidad Nacional de Colombia - Sede Manizales
-%   Wilson Gonz·lez-Vanegas - Universidad TecnolÛgica de Pereira
-%   Carlos E. Murillo-S·nchez - Universidad Nacional de Colombia - Sede Manizales
+%   Sergio Garc√≠a-Mar√≠n - Universidad Nacional de Colombia - Sede Manizales
+%   Wilson Gonz√°lez-Vanegas - Universidad Tecnol√≥gica de Pereira
+%   Carlos E. Murillo-S√°nchez - Universidad Nacional de Colombia - Sede Manizales
 % 
 %   This file is part of MPNG.
 %   Covered by the 3-clause BSD License (see LICENSE file for details).
