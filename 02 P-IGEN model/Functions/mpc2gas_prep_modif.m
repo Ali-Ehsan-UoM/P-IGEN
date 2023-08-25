@@ -1,4 +1,4 @@
-%% modify mpc2gas_prep function
+%% Modify mpc2gas_prep function
 
 function mpgc = mpc2gas_prep(mpgc0,mpopt)
 % mpc2gas_prep Modifies the original Matpower case to make it fulfil the 
