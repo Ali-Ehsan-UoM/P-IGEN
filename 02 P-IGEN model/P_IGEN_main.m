@@ -1,4 +1,4 @@
-% P- IGEN model
+% Main file to simulate P- IGEN model
 
 % Load Network data for GB networks
 mpc = Electricity_Network; %Load Electricity Network
