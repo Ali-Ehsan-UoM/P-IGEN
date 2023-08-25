@@ -1,3 +1,5 @@
+## Modify mpng function
+
 function results = mpng(mpgc,mpopt)
 % MPNG (MatPower - Natural Gas) Solves an optimal power and natural gas flow. 
 %   RESULTS = mpng(MPGC,MPOPT)
@@ -67,9 +69,9 @@ function results = mpng(mpgc,mpopt)
 
 %   MPNG Matpower - Natural Gas
 %   Copyright (c) 2019 - v0.99alpha
-%   Sergio GarcÌa-MarÌn - Universidad Nacional de Colombia - Sede Manizales
-%   Wilson Gonz·lez-Vanegas - Universidad TecnolÛgica de Pereira
-%   Carlos E. Murillo-S·nchez - Universidad Nacional de Colombia - Sede Manizales
+%   Sergio Garc√≠a-Mar√≠n - Universidad Nacional de Colombia - Sede Manizales
+%   Wilson Gonz√°lez-Vanegas - Universidad Tecnol√≥gica de Pereira
+%   Carlos E. Murillo-S√°nchez - Universidad Nacional de Colombia - Sede Manizales
 % 
 %   This file is part of MPNG.
 %   Covered by the 3-clause BSD License (see LICENSE file for details).                                                   
