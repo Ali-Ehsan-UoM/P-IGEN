@@ -1,3 +1,5 @@
+#Case file for GB electricity network
+
 function mpc = GB_29bus
 
 mpc.version = '2';
@@ -278,7 +280,7 @@ mpc.branch = [
     % GB-GB Interconectors
     1	30	0.0002	0.002	0	6000	6000	6000	0	0	1	-360	360.00;  % Catithness Moray 1
     2	31	0.0002	0.002	0	6000	6000	6000	0	0	1	-360	360.00;   % Catithness Moray 2
-    2	32	0.0002	0.002	0	6000	6000	6000	0	0	1	-360	360.00;   % NorthConnect                    %Scotland–Norway HVDC interconnector
+    2	32	0.0002	0.002	0	6000	6000	6000	0	0	1	-360	360.00;   % NorthConnect                    %ScotlandÂ–Norway HVDC interconnector
     2	33	0.0002	0.002	0	6000	6000	6000	0	0	1	-360	360.00;   % Eastern Link 1 Scotland          % Scotland-England HVDC interconnector
     10	34	0.0002	0.002	0	6000	6000	6000	0	0	1	-360	360.00;  % Eastern Link 2 England
     % International Interconectors
