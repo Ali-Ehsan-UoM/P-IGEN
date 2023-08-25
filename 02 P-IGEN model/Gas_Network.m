@@ -1,3 +1,4 @@
+# Case file for GB gas network
 function mgc = GB_46node
 
 
